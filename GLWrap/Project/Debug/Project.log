@@ -1,0 +1,50 @@
+﻿  AbstructContainer.cpp
+  Application.cpp
+  Camera.cpp
+  Circle.cpp
+  Clock.cpp
+  Collision.cpp
+  Font.cpp
+  FrameBuffer.cpp
+  GameApplication.cpp
+C:\Users\maila\Documents\GitHub\GLWrap\GLWrap\Project\GameApplication.cpp(183,45): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+  Gamepad.cpp
+  GeometryRenderer.cpp
+  GLTFData.cpp
+  Graphics.cpp
+  InputManager.cpp
+  Keyboard.cpp
+  KeyFrameAnimation.cpp
+  main.cpp
+  Material.cpp
+  Mesh.cpp
+  Model.cpp
+  コードを生成中...
+  コンパイル中...
+  ModelNode.cpp
+  Mouse.cpp
+  Rectangle.cpp
+  ResourceManager.cpp
+  Shader.cpp
+  SkinAnimation.cpp
+  SpriteAnimation.cpp
+  Texture.cpp
+  VertexArray.inl
+  Window.cpp
+  コードを生成中...
+glfw3.lib(context.obj) : warning LNK4099: PDB 'glfw.pdb' が 'glfw3.lib(context.obj)' で、または 'C:\Users\maila\Documents\GitHub\GLWrap\GLWrap\Debug\glfw.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+glfw3.lib(init.obj) : warning LNK4099: PDB 'glfw.pdb' が 'glfw3.lib(init.obj)' で、または 'C:\Users\maila\Documents\GitHub\GLWrap\GLWrap\Debug\glfw.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+glfw3.lib(input.obj) : warning LNK4099: PDB 'glfw.pdb' が 'glfw3.lib(input.obj)' で、または 'C:\Users\maila\Documents\GitHub\GLWrap\GLWrap\Debug\glfw.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+glfw3.lib(monitor.obj) : warning LNK4099: PDB 'glfw.pdb' が 'glfw3.lib(monitor.obj)' で、または 'C:\Users\maila\Documents\GitHub\GLWrap\GLWrap\Debug\glfw.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+glfw3.lib(vulkan.obj) : warning LNK4099: PDB '' が 'glfw3.lib(vulkan.obj)' で、または '' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+glfw3.lib(window.obj) : warning LNK4099: PDB 'glfw.pdb' が 'glfw3.lib(window.obj)' で、または 'C:\Users\maila\Documents\GitHub\GLWrap\GLWrap\Debug\glfw.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+glfw3.lib(win32_init.obj) : warning LNK4099: PDB 'glfw.pdb' が 'glfw3.lib(win32_init.obj)' で、または 'C:\Users\maila\Documents\GitHub\GLWrap\GLWrap\Debug\glfw.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+glfw3.lib(win32_joystick.obj) : warning LNK4099: PDB 'glfw.pdb' が 'glfw3.lib(win32_joystick.obj)' で、または 'C:\Users\maila\Documents\GitHub\GLWrap\GLWrap\Debug\glfw.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+glfw3.lib(win32_monitor.obj) : warning LNK4099: PDB '' が 'glfw3.lib(win32_monitor.obj)' で、または '' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+glfw3.lib(win32_time.obj) : warning LNK4099: PDB 'glfw.pdb' が 'glfw3.lib(win32_time.obj)' で、または 'C:\Users\maila\Documents\GitHub\GLWrap\GLWrap\Debug\glfw.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+glfw3.lib(win32_thread.obj) : warning LNK4099: PDB 'glfw.pdb' が 'glfw3.lib(win32_thread.obj)' で、または 'C:\Users\maila\Documents\GitHub\GLWrap\GLWrap\Debug\glfw.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+glfw3.lib(win32_window.obj) : warning LNK4099: PDB 'glfw.pdb' が 'glfw3.lib(win32_window.obj)' で、または 'C:\Users\maila\Documents\GitHub\GLWrap\GLWrap\Debug\glfw.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+glfw3.lib(wgl_context.obj) : warning LNK4099: PDB 'glfw.pdb' が 'glfw3.lib(wgl_context.obj)' で、または 'C:\Users\maila\Documents\GitHub\GLWrap\GLWrap\Debug\glfw.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+glfw3.lib(egl_context.obj) : warning LNK4099: PDB 'glfw.pdb' が 'glfw3.lib(egl_context.obj)' で、または 'C:\Users\maila\Documents\GitHub\GLWrap\GLWrap\Debug\glfw.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+glfw3.lib(osmesa_context.obj) : warning LNK4099: PDB 'glfw.pdb' が 'glfw3.lib(osmesa_context.obj)' で、または 'C:\Users\maila\Documents\GitHub\GLWrap\GLWrap\Debug\glfw.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+  Project.vcxproj -> C:\Users\maila\Documents\GitHub\GLWrap\GLWrap\Debug\Project.exe

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{39d0c8a7-57ce-44b7-9981-e2fb341705a1}</ProjectGuid>
+    <RootNamespace>Project</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <AdditionalIncludeDirectories>../include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AbstructContainer.cpp" />
+    <ClCompile Include="Application.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Circle.cpp" />
+    <ClCompile Include="Clock.cpp" />
+    <ClCompile Include="Collision.cpp" />
+    <ClCompile Include="Font.cpp" />
+    <ClCompile Include="FrameBuffer.cpp" />
+    <ClCompile Include="GameApplication.cpp" />
+    <ClCompile Include="Gamepad.cpp" />
+    <ClCompile Include="GeometryRenderer.cpp" />
+    <ClCompile Include="GLTFData.cpp" />
+    <ClCompile Include="Graphics.cpp" />
+    <ClCompile Include="InputManager.cpp" />
+    <ClCompile Include="Keyboard.cpp" />
+    <ClCompile Include="KeyFrameAnimation.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Material.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="Model.cpp" />
+    <ClCompile Include="ModelNode.cpp" />
+    <ClCompile Include="Mouse.cpp" />
+    <ClCompile Include="Rectangle.cpp" />
+    <ClCompile Include="ResourceManager.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="SkinAnimation.cpp" />
+    <ClCompile Include="SpriteAnimation.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="VertexArray.inl" />
+    <ClCompile Include="Window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AbstructContainer.h" />
+    <ClInclude Include="Application.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Circle.h" />
+    <ClInclude Include="Clock.h" />
+    <ClInclude Include="Collision.h" />
+    <ClInclude Include="Font.h" />
+    <ClInclude Include="FrameBuffer.h" />
+    <ClInclude Include="GameApplication.h" />
+    <ClInclude Include="Gamepad.h" />
+    <ClInclude Include="GeometryRenderer.h" />
+    <ClInclude Include="GLTFData.h" />
+    <ClInclude Include="Graphics.h" />
+    <ClInclude Include="Header.h" />
+    <ClInclude Include="Helper.h" />
+    <ClInclude Include="InputManager.h" />
+    <ClInclude Include="Keyboard.h" />
+    <ClInclude Include="KeyFrameAnimation.h" />
+    <ClInclude Include="Material.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="ModelNode.h" />
+    <ClInclude Include="Mouse.h" />
+    <ClInclude Include="Rectangle.h" />
+    <ClInclude Include="ResourceManager.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="SkinAnimation.h" />
+    <ClInclude Include="SpriteAnimation.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="Vertex.h" />
+    <ClInclude Include="VertexArray.h" />
+    <ClInclude Include="Window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resource\animation\basic.json" />
+    <None Include="..\Resource\model\AnimatedCube\AnimatedCube.bin" />
+    <None Include="..\Resource\model\AnimatedCube\AnimatedCube.gltf" />
+    <None Include="..\Resource\model\AnimatedTriangle\AnimatedTriangle.gltf" />
+    <None Include="..\Resource\model\AnimatedTriangle\animation.bin" />
+    <None Include="..\Resource\model\AnimatedTriangle\simpleTriangle.bin" />
+    <None Include="..\Resource\model\BoxAnimated\BoxAnimated.gltf" />
+    <None Include="..\Resource\model\BoxAnimated\BoxAnimated0.bin" />
+    <None Include="..\Resource\model\BoxTextured\BoxTextured.gltf" />
+    <None Include="..\Resource\model\BoxTextured\BoxTextured0.bin" />
+    <None Include="..\Resource\model\Box\Box.gltf" />
+    <None Include="..\Resource\model\Box\Box0.bin" />
+    <None Include="..\Resource\model\buster_drone\scene.bin" />
+    <None Include="..\Resource\model\buster_drone\scene.gltf" />
+    <None Include="..\Resource\model\Duck\Duck.gltf" />
+    <None Include="..\Resource\model\Duck\Duck0.bin" />
+    <None Include="..\Resource\model\Fox\Fox.bin" />
+    <None Include="..\Resource\model\Fox\Fox.gltf" />
+    <None Include="..\Resource\model\mei\scene.bin" />
+    <None Include="..\Resource\model\mei\scene.gltf" />
+    <None Include="..\Resource\model\MultiUVTest\MultiUVTest.bin" />
+    <None Include="..\Resource\model\MultiUVTest\MultiUVTest.gltf" />
+    <None Include="..\Resource\model\rx-4\scene.bin" />
+    <None Include="..\Resource\model\rx-4\scene.gltf" />
+    <None Include="..\Resource\model\SimpleMeshes\SimpleMeshes.gltf" />
+    <None Include="..\Resource\model\SimpleMeshes\triangle.bin" />
+    <None Include="..\Resource\model\SimpleMorph\SimpleMorph.gltf" />
+    <None Include="..\Resource\model\SimpleMorph\simpleMorphAnimation.bin" />
+    <None Include="..\Resource\model\SimpleMorph\simpleMorphGeometry.bin" />
+    <None Include="..\Resource\model\SimpleSkin\inverseBindMatrices.bin" />
+    <None Include="..\Resource\model\SimpleSkin\SimpleSkin.gltf" />
+    <None Include="..\Resource\model\SimpleSkin\skinAnimation.bin" />
+    <None Include="..\Resource\model\SimpleSkin\skinGeometry.bin" />
+    <None Include="..\Resource\model\SimpleSkin\skinningData.bin" />
+    <None Include="..\Resource\model\WaterBottle\WaterBottle.bin" />
+    <None Include="..\Resource\model\WaterBottle\WaterBottle.gltf" />
+    <None Include="..\Resource\shader\circle.shader" />
+    <None Include="..\Resource\shader\circle.vert" />
+    <None Include="..\Resource\shader\color.vert" />
+    <None Include="..\Resource\shader\colored.shader" />
+    <None Include="..\Resource\shader\colored.vert" />
+    <None Include="..\Resource\shader\font.frag" />
+    <None Include="..\Resource\shader\font.shader" />
+    <None Include="..\Resource\shader\font.vert" />
+    <None Include="..\Resource\shader\instanced_texture.shader" />
+    <None Include="..\Resource\shader\instanced_texture.vert" />
+    <None Include="..\Resource\shader\simple.frag" />
+    <None Include="..\Resource\shader\simple.vert" />
+    <None Include="..\Resource\shader\texture.frag" />
+    <None Include="..\Resource\shader\texture.shader" />
+    <None Include="..\Resource\shader\texture.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Resource\path\resource.txt" />
+    <Text Include="..\Resource\shader\mesh.vert" />
+    <Text Include="..\Resource\shader\mesh.frag" />
+    <Text Include="..\Resource\shader\mesh.shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resource\model\AnimatedCube\AnimatedCube_BaseColor.png" />
+    <Image Include="..\Resource\model\AnimatedCube\AnimatedCube_MetallicRoughness.png" />
+    <Image Include="..\Resource\model\BoxTextured\CesiumLogoFlat.png" />
+    <Image Include="..\Resource\model\buster_drone\textures\Boden_baseColor.png" />
+    <Image Include="..\Resource\model\buster_drone\textures\Boden_metallicRoughness.png" />
+    <Image Include="..\Resource\model\buster_drone\textures\Boden_normal.png" />
+    <Image Include="..\Resource\model\buster_drone\textures\body_baseColor.png" />
+    <Image Include="..\Resource\model\buster_drone\textures\body_emissive.png" />
+    <Image Include="..\Resource\model\buster_drone\textures\body_metallicRoughness.png" />
+    <Image Include="..\Resource\model\buster_drone\textures\body_normal.png" />
+    <Image Include="..\Resource\model\buster_drone\textures\material_baseColor.png" />
+    <Image Include="..\Resource\model\buster_drone\textures\material_metallicRoughness.png" />
+    <Image Include="..\Resource\model\buster_drone\textures\material_normal.png" />
+    <Image Include="..\Resource\model\Duck\DuckCM.png" />
+    <Image Include="..\Resource\model\Fox\Texture.png" />
+    <Image Include="..\Resource\model\mei\textures\Mei_geo_002FACE_2Material_baseColor.png" />
+    <Image Include="..\Resource\model\MultiUVTest\uv0.png" />
+    <Image Include="..\Resource\model\MultiUVTest\uv1.png" />
+    <Image Include="..\Resource\model\rx-4\textures\Scene_-_Root_diffuse.png" />
+    <Image Include="..\Resource\model\rx-4\textures\Scene_-_Root_emissive.png" />
+    <Image Include="..\Resource\model\rx-4\textures\Scene_-_Root_specularGlossiness.png" />
+    <Image Include="..\Resource\model\WaterBottle\WaterBottle_baseColor.png" />
+    <Image Include="..\Resource\model\WaterBottle\WaterBottle_emissive.png" />
+    <Image Include="..\Resource\model\WaterBottle\WaterBottle_normal.png" />
+    <Image Include="..\Resource\model\WaterBottle\WaterBottle_occlusionRoughnessMetallic.png" />
+    <Image Include="..\Resource\texture\map.png" />
+    <Image Include="..\Resource\texture\wheel.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

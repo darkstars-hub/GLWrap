@@ -1,0 +1,573 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Application">
+      <UniqueIdentifier>{f66a4de5-5d8e-41c3-9586-ee6cb30b4014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Application">
+      <UniqueIdentifier>{67f90806-9283-4583-a7db-5e0059338ae7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Application\Input">
+      <UniqueIdentifier>{b0bed547-e4da-49ac-a881-f75069456381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Application\Input">
+      <UniqueIdentifier>{ec83a444-6e7a-4837-882d-bfd3b7c6fefd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Application\Graphics">
+      <UniqueIdentifier>{33de2e15-1d9f-4f0b-8997-53f85bc7ae4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\shader">
+      <UniqueIdentifier>{e226d6fe-0287-4a55-9b9f-874f4e43e0fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Application\Graphics">
+      <UniqueIdentifier>{417b904f-b53c-4639-b550-2015c0a84e1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\shader\vertex">
+      <UniqueIdentifier>{7235e5ee-70ba-4b60-8515-394d39b4ea13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\shader\fragment">
+      <UniqueIdentifier>{06a0e008-c9f3-41c7-8cf8-904454d3ae71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\shader\shader">
+      <UniqueIdentifier>{13345a5b-750d-426a-97e3-0f1e04ae2a37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Application\Geometry">
+      <UniqueIdentifier>{906de82d-0c62-4a27-8deb-725e8f305a02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Application\Geometry">
+      <UniqueIdentifier>{f9473d7c-5a65-45fc-92a3-c961f78e4ca5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Application\File">
+      <UniqueIdentifier>{4682dcc4-12b7-4437-8e64-1cbcb3127058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Application\File">
+      <UniqueIdentifier>{5e98240e-b94c-4d0d-998c-b6a1f5a55339}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\model">
+      <UniqueIdentifier>{5065e389-2df1-4ce4-bfc9-da58a22e4b9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\model\Box">
+      <UniqueIdentifier>{50987c96-5405-4eb7-908e-943ce47f4237}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\path">
+      <UniqueIdentifier>{321e966d-1928-40b9-a269-da5fe0002329}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\texture">
+      <UniqueIdentifier>{9044884c-5aa5-435a-bfa6-06f532de77a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\model\AnimatedTriangle">
+      <UniqueIdentifier>{2593a346-1b2e-4d59-94d8-20905b72604b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\model\Duck">
+      <UniqueIdentifier>{8fba3ff1-5f70-4dab-93e8-566a09fd338d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\model\rx-4">
+      <UniqueIdentifier>{fa520538-e808-4b73-aa18-e11dbf901598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\model\rx-4\textures">
+      <UniqueIdentifier>{71ef53d8-59e1-45ed-8e23-1d60bd6e5ed1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\model\SimpleMeshes">
+      <UniqueIdentifier>{f40398fc-1507-4e9a-9449-24153035ce9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\model\AnimatedCube">
+      <UniqueIdentifier>{684fc945-a5d6-47a9-b091-3359a80f2a31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\model\BoxAnimated">
+      <UniqueIdentifier>{74e6167d-f496-4ecd-ab97-7e065d977c87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Application\Graphics\Model">
+      <UniqueIdentifier>{bf11badd-d578-4642-9d07-822d7c328c16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Application\Graphics\Model">
+      <UniqueIdentifier>{8fa69270-c204-4541-bbd0-819ecc36fb7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\model\Fox">
+      <UniqueIdentifier>{abc134bb-114b-4423-beb2-b606568b4019}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\model\BoxTextured">
+      <UniqueIdentifier>{b641f4dc-b69e-4659-b3c0-311e584eba82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\model\WaterBottle">
+      <UniqueIdentifier>{91976594-2a5e-41c5-8946-4ef5e9146753}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\model\MultiUVTest">
+      <UniqueIdentifier>{680d88a9-9a2e-465e-a96d-4f9a82a834e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\model\mei">
+      <UniqueIdentifier>{eb2882a7-ba6e-412e-bd8f-b15876c5fbec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\model\mei\textures">
+      <UniqueIdentifier>{df3c2901-9751-4303-b420-aec62bfa0b5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\model\buster_drone">
+      <UniqueIdentifier>{47a094ca-77a6-46a1-88a5-a0569691ce35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\model\buster_drone\textures">
+      <UniqueIdentifier>{663a88df-944e-4085-8e06-3731db05e69e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\model\SimpleMorph">
+      <UniqueIdentifier>{642a355e-66bf-45b3-bd9a-f7b8cc893aff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\model\SimpleSkin">
+      <UniqueIdentifier>{1a759618-b873-4144-b1e6-d28c76bec53b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\animation">
+      <UniqueIdentifier>{0f0ceab9-db02-4d1a-89d7-15520b4bbab7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application.cpp">
+      <Filter>ソース ファイル\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>ソース ファイル\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>ソース ファイル\Application\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>ソース ファイル\Application\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Gamepad.cpp">
+      <Filter>ソース ファイル\Application\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Clock.cpp">
+      <Filter>ソース ファイル\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApplication.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>ソース ファイル\Application\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>ソース ファイル\Application\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>ソース ファイル\Application\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexArray.inl">
+      <Filter>ソース ファイル\Application\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>ソース ファイル\Application\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryRenderer.cpp">
+      <Filter>ソース ファイル\Application\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>ソース ファイル\Application\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>ソース ファイル\Application\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>ソース ファイル\Application\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstructContainer.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>ソース ファイル\Application\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>ソース ファイル\Application\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="GLTFData.cpp">
+      <Filter>ソース ファイル\Application\File</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelNode.cpp">
+      <Filter>ソース ファイル\Application\Graphics\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>ソース ファイル\Application\Graphics\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyFrameAnimation.cpp">
+      <Filter>ソース ファイル\Application\Graphics\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>ソース ファイル\Application\Graphics\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteAnimation.cpp">
+      <Filter>ソース ファイル\Application\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinAnimation.cpp">
+      <Filter>ソース ファイル\Application\Graphics\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameBuffer.cpp">
+      <Filter>ソース ファイル\Application\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>ソース ファイル\Application\Graphics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Helper.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>ヘッダー ファイル\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Header.h">
+      <Filter>ヘッダー ファイル\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>ヘッダー ファイル\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>ヘッダー ファイル\Application\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>ヘッダー ファイル\Application\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Gamepad.h">
+      <Filter>ヘッダー ファイル\Application\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Clock.h">
+      <Filter>ヘッダー ファイル\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApplication.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>ヘッダー ファイル\Application\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexArray.h">
+      <Filter>ヘッダー ファイル\Application\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>ヘッダー ファイル\Application\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>ヘッダー ファイル\Application\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>ヘッダー ファイル\Application\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>ヘッダー ファイル\Application\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>ヘッダー ファイル\Application\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryRenderer.h">
+      <Filter>ヘッダー ファイル\Application\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>ヘッダー ファイル\Application\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>ヘッダー ファイル\Application\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstructContainer.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>ヘッダー ファイル\Application\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>ヘッダー ファイル\Application\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="GLTFData.h">
+      <Filter>ヘッダー ファイル\Application\File</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelNode.h">
+      <Filter>ヘッダー ファイル\Application\Graphics\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>ヘッダー ファイル\Application\Graphics\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyFrameAnimation.h">
+      <Filter>ヘッダー ファイル\Application\Graphics\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>ヘッダー ファイル\Application\Graphics\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteAnimation.h">
+      <Filter>ヘッダー ファイル\Application\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinAnimation.h">
+      <Filter>ヘッダー ファイル\Application\Graphics\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>ヘッダー ファイル\Application\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameBuffer.h">
+      <Filter>ヘッダー ファイル\Application\Graphics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resource\shader\simple.frag">
+      <Filter>リソース ファイル\shader\fragment</Filter>
+    </None>
+    <None Include="..\Resource\shader\texture.frag">
+      <Filter>リソース ファイル\shader\fragment</Filter>
+    </None>
+    <None Include="..\Resource\shader\color.vert">
+      <Filter>リソース ファイル\shader\vertex</Filter>
+    </None>
+    <None Include="..\Resource\shader\colored.vert">
+      <Filter>リソース ファイル\shader\vertex</Filter>
+    </None>
+    <None Include="..\Resource\shader\simple.vert">
+      <Filter>リソース ファイル\shader\vertex</Filter>
+    </None>
+    <None Include="..\Resource\shader\texture.vert">
+      <Filter>リソース ファイル\shader\vertex</Filter>
+    </None>
+    <None Include="..\Resource\shader\texture.shader">
+      <Filter>リソース ファイル\shader\shader</Filter>
+    </None>
+    <None Include="..\Resource\shader\circle.shader">
+      <Filter>リソース ファイル\shader\shader</Filter>
+    </None>
+    <None Include="..\Resource\shader\colored.shader">
+      <Filter>リソース ファイル\shader\shader</Filter>
+    </None>
+    <None Include="..\Resource\shader\instanced_texture.vert">
+      <Filter>リソース ファイル\shader\vertex</Filter>
+    </None>
+    <None Include="..\Resource\model\Box\Box.gltf">
+      <Filter>リソース ファイル\model\Box</Filter>
+    </None>
+    <None Include="..\Resource\model\Box\Box0.bin">
+      <Filter>リソース ファイル\model\Box</Filter>
+    </None>
+    <None Include="..\Resource\shader\circle.vert">
+      <Filter>リソース ファイル\shader\vertex</Filter>
+    </None>
+    <None Include="..\Resource\model\AnimatedTriangle\animation.bin">
+      <Filter>リソース ファイル\model\AnimatedTriangle</Filter>
+    </None>
+    <None Include="..\Resource\model\AnimatedTriangle\simpleTriangle.bin">
+      <Filter>リソース ファイル\model\AnimatedTriangle</Filter>
+    </None>
+    <None Include="..\Resource\model\AnimatedTriangle\AnimatedTriangle.gltf">
+      <Filter>リソース ファイル\model\AnimatedTriangle</Filter>
+    </None>
+    <None Include="..\Resource\model\Duck\Duck.gltf">
+      <Filter>リソース ファイル\model\Duck</Filter>
+    </None>
+    <None Include="..\Resource\model\Duck\Duck0.bin">
+      <Filter>リソース ファイル\model\Duck</Filter>
+    </None>
+    <None Include="..\Resource\model\rx-4\scene.bin">
+      <Filter>リソース ファイル\model\rx-4</Filter>
+    </None>
+    <None Include="..\Resource\model\rx-4\scene.gltf">
+      <Filter>リソース ファイル\model\rx-4</Filter>
+    </None>
+    <None Include="..\Resource\model\SimpleMeshes\triangle.bin">
+      <Filter>リソース ファイル\model\SimpleMeshes</Filter>
+    </None>
+    <None Include="..\Resource\model\SimpleMeshes\SimpleMeshes.gltf">
+      <Filter>リソース ファイル\model\SimpleMeshes</Filter>
+    </None>
+    <None Include="..\Resource\model\AnimatedCube\AnimatedCube.bin">
+      <Filter>リソース ファイル\model\AnimatedCube</Filter>
+    </None>
+    <None Include="..\Resource\model\AnimatedCube\AnimatedCube.gltf">
+      <Filter>リソース ファイル\model\AnimatedCube</Filter>
+    </None>
+    <None Include="..\Resource\model\BoxAnimated\BoxAnimated.gltf">
+      <Filter>リソース ファイル\model\BoxAnimated</Filter>
+    </None>
+    <None Include="..\Resource\model\BoxAnimated\BoxAnimated0.bin">
+      <Filter>リソース ファイル\model\BoxAnimated</Filter>
+    </None>
+    <None Include="..\Resource\model\Fox\Fox.gltf">
+      <Filter>リソース ファイル\model\Fox</Filter>
+    </None>
+    <None Include="..\Resource\model\Fox\Fox.bin">
+      <Filter>リソース ファイル\model\Fox</Filter>
+    </None>
+    <None Include="..\Resource\model\BoxTextured\BoxTextured0.bin">
+      <Filter>リソース ファイル\model\BoxTextured</Filter>
+    </None>
+    <None Include="..\Resource\model\BoxTextured\BoxTextured.gltf">
+      <Filter>リソース ファイル\model\BoxTextured</Filter>
+    </None>
+    <None Include="..\Resource\model\WaterBottle\WaterBottle.bin">
+      <Filter>リソース ファイル\model\WaterBottle</Filter>
+    </None>
+    <None Include="..\Resource\model\WaterBottle\WaterBottle.gltf">
+      <Filter>リソース ファイル\model\WaterBottle</Filter>
+    </None>
+    <None Include="..\Resource\model\MultiUVTest\MultiUVTest.bin">
+      <Filter>リソース ファイル\model\MultiUVTest</Filter>
+    </None>
+    <None Include="..\Resource\model\MultiUVTest\MultiUVTest.gltf">
+      <Filter>リソース ファイル\model\MultiUVTest</Filter>
+    </None>
+    <None Include="..\Resource\model\mei\scene.bin">
+      <Filter>リソース ファイル\model\mei</Filter>
+    </None>
+    <None Include="..\Resource\model\mei\scene.gltf">
+      <Filter>リソース ファイル\model\mei</Filter>
+    </None>
+    <None Include="..\Resource\model\buster_drone\scene.bin">
+      <Filter>リソース ファイル\model\buster_drone</Filter>
+    </None>
+    <None Include="..\Resource\model\buster_drone\scene.gltf">
+      <Filter>リソース ファイル\model\buster_drone</Filter>
+    </None>
+    <None Include="..\Resource\model\SimpleMorph\simpleMorphAnimation.bin">
+      <Filter>リソース ファイル\model\SimpleMorph</Filter>
+    </None>
+    <None Include="..\Resource\model\SimpleMorph\simpleMorphGeometry.bin">
+      <Filter>リソース ファイル\model\SimpleMorph</Filter>
+    </None>
+    <None Include="..\Resource\model\SimpleMorph\SimpleMorph.gltf">
+      <Filter>リソース ファイル\model\SimpleMorph</Filter>
+    </None>
+    <None Include="..\Resource\model\SimpleSkin\skinAnimation.bin">
+      <Filter>リソース ファイル\model\SimpleSkin</Filter>
+    </None>
+    <None Include="..\Resource\model\SimpleSkin\skinGeometry.bin">
+      <Filter>リソース ファイル\model\SimpleSkin</Filter>
+    </None>
+    <None Include="..\Resource\model\SimpleSkin\skinningData.bin">
+      <Filter>リソース ファイル\model\SimpleSkin</Filter>
+    </None>
+    <None Include="..\Resource\model\SimpleSkin\inverseBindMatrices.bin">
+      <Filter>リソース ファイル\model\SimpleSkin</Filter>
+    </None>
+    <None Include="..\Resource\model\SimpleSkin\SimpleSkin.gltf">
+      <Filter>リソース ファイル\model\SimpleSkin</Filter>
+    </None>
+    <None Include="..\Resource\animation\basic.json">
+      <Filter>リソース ファイル\animation</Filter>
+    </None>
+    <None Include="..\Resource\shader\instanced_texture.shader">
+      <Filter>リソース ファイル\shader\shader</Filter>
+    </None>
+    <None Include="..\Resource\shader\font.shader">
+      <Filter>リソース ファイル\shader\shader</Filter>
+    </None>
+    <None Include="..\Resource\shader\font.frag">
+      <Filter>リソース ファイル\shader\fragment</Filter>
+    </None>
+    <None Include="..\Resource\shader\font.vert">
+      <Filter>リソース ファイル\shader\vertex</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Resource\path\resource.txt">
+      <Filter>リソース ファイル\path</Filter>
+    </Text>
+    <Text Include="..\Resource\shader\mesh.vert">
+      <Filter>リソース ファイル\shader\vertex</Filter>
+    </Text>
+    <Text Include="..\Resource\shader\mesh.shader">
+      <Filter>リソース ファイル\shader\shader</Filter>
+    </Text>
+    <Text Include="..\Resource\shader\mesh.frag">
+      <Filter>リソース ファイル\shader\fragment</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resource\texture\wheel.png">
+      <Filter>リソース ファイル\texture</Filter>
+    </Image>
+    <Image Include="..\Resource\texture\map.png">
+      <Filter>リソース ファイル\texture</Filter>
+    </Image>
+    <Image Include="..\Resource\model\Duck\DuckCM.png">
+      <Filter>リソース ファイル\model\Duck</Filter>
+    </Image>
+    <Image Include="..\Resource\model\rx-4\textures\Scene_-_Root_specularGlossiness.png">
+      <Filter>リソース ファイル\model\rx-4\textures</Filter>
+    </Image>
+    <Image Include="..\Resource\model\rx-4\textures\Scene_-_Root_diffuse.png">
+      <Filter>リソース ファイル\model\rx-4\textures</Filter>
+    </Image>
+    <Image Include="..\Resource\model\rx-4\textures\Scene_-_Root_emissive.png">
+      <Filter>リソース ファイル\model\rx-4\textures</Filter>
+    </Image>
+    <Image Include="..\Resource\model\AnimatedCube\AnimatedCube_MetallicRoughness.png">
+      <Filter>リソース ファイル\model\AnimatedCube</Filter>
+    </Image>
+    <Image Include="..\Resource\model\AnimatedCube\AnimatedCube_BaseColor.png">
+      <Filter>リソース ファイル\model\AnimatedCube</Filter>
+    </Image>
+    <Image Include="..\Resource\model\Fox\Texture.png">
+      <Filter>リソース ファイル\model\Fox</Filter>
+    </Image>
+    <Image Include="..\Resource\model\BoxTextured\CesiumLogoFlat.png">
+      <Filter>リソース ファイル\model\BoxTextured</Filter>
+    </Image>
+    <Image Include="..\Resource\model\WaterBottle\WaterBottle_baseColor.png">
+      <Filter>リソース ファイル\model\WaterBottle</Filter>
+    </Image>
+    <Image Include="..\Resource\model\WaterBottle\WaterBottle_emissive.png">
+      <Filter>リソース ファイル\model\WaterBottle</Filter>
+    </Image>
+    <Image Include="..\Resource\model\WaterBottle\WaterBottle_normal.png">
+      <Filter>リソース ファイル\model\WaterBottle</Filter>
+    </Image>
+    <Image Include="..\Resource\model\WaterBottle\WaterBottle_occlusionRoughnessMetallic.png">
+      <Filter>リソース ファイル\model\WaterBottle</Filter>
+    </Image>
+    <Image Include="..\Resource\model\MultiUVTest\uv0.png">
+      <Filter>リソース ファイル\model\MultiUVTest</Filter>
+    </Image>
+    <Image Include="..\Resource\model\MultiUVTest\uv1.png">
+      <Filter>リソース ファイル\model\MultiUVTest</Filter>
+    </Image>
+    <Image Include="..\Resource\model\mei\textures\Mei_geo_002FACE_2Material_baseColor.png">
+      <Filter>リソース ファイル\model\mei\textures</Filter>
+    </Image>
+    <Image Include="..\Resource\model\buster_drone\textures\body_emissive.png">
+      <Filter>リソース ファイル\model\buster_drone\textures</Filter>
+    </Image>
+    <Image Include="..\Resource\model\buster_drone\textures\body_metallicRoughness.png">
+      <Filter>リソース ファイル\model\buster_drone\textures</Filter>
+    </Image>
+    <Image Include="..\Resource\model\buster_drone\textures\body_normal.png">
+      <Filter>リソース ファイル\model\buster_drone\textures</Filter>
+    </Image>
+    <Image Include="..\Resource\model\buster_drone\textures\material_baseColor.png">
+      <Filter>リソース ファイル\model\buster_drone\textures</Filter>
+    </Image>
+    <Image Include="..\Resource\model\buster_drone\textures\material_metallicRoughness.png">
+      <Filter>リソース ファイル\model\buster_drone\textures</Filter>
+    </Image>
+    <Image Include="..\Resource\model\buster_drone\textures\material_normal.png">
+      <Filter>リソース ファイル\model\buster_drone\textures</Filter>
+    </Image>
+    <Image Include="..\Resource\model\buster_drone\textures\Boden_baseColor.png">
+      <Filter>リソース ファイル\model\buster_drone\textures</Filter>
+    </Image>
+    <Image Include="..\Resource\model\buster_drone\textures\Boden_metallicRoughness.png">
+      <Filter>リソース ファイル\model\buster_drone\textures</Filter>
+    </Image>
+    <Image Include="..\Resource\model\buster_drone\textures\Boden_normal.png">
+      <Filter>リソース ファイル\model\buster_drone\textures</Filter>
+    </Image>
+    <Image Include="..\Resource\model\buster_drone\textures\body_baseColor.png">
+      <Filter>リソース ファイル\model\buster_drone\textures</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

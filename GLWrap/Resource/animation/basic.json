@@ -1,0 +1,38 @@
+{
+  "animation": {
+    "name": "none",
+    "rate": 60,
+    "rectangles": [
+      {
+        "left": 0,
+        "top": 0,
+        "right": 32,
+        "bottom": 32
+      },
+      {
+        "left": 32,
+        "top": 0,
+        "right": 64,
+        "bottom": 32
+      },
+      {
+        "left": 64,
+        "top": 0,
+        "right": 96,
+        "bottom": 32
+      },
+      {
+        "left": 96,
+        "top": 0,
+        "right": 128,
+        "bottom": 32
+      },
+      {
+        "left": 0,
+        "top": 32,
+        "right": 32,
+        "bottom": 64
+      }
+    ]
+  }
+}
