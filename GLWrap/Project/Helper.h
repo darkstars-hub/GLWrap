@@ -71,7 +71,9 @@ void VectorTranspose(std::vector<std::vector<T>>& source, std::vector<std::vecto
 }
 static void IOSetting(void) {
     std::cout << std::fixed << std::setprecision(7) << std::boolalpha;
+#ifdef _DEBUG
     _CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
+#endif // _DEBUG
 }
 static int GenerateRandom(const int min, const int max) {
     std::random_device seed;

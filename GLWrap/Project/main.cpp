@@ -15,12 +15,18 @@
 #define MAIN_32_DEBUG
 #pragma comment (lib, "../lib32/xinput/xinput.lib")
 #pragma comment(lib, "../lib32/GL/OpenGL32.lib")
-#pragma comment(lib, "../lib32/GLEW/glew32d.lib")
-#pragma comment(lib, "../lib32/GLFW/glfw3.lib")
-#pragma comment(lib, "../lib32/freetype/freetype.lib")
+#pragma comment(lib, "../lib32/GLEW/Debug/glew32d.lib")
+#pragma comment(lib, "../lib32/GLFW/Debug/glfw3.lib")
+#pragma comment(lib, "../lib32/freetype/Debug/freetyped.lib")
 #endif // _DEBUG
 #ifdef NDEBUG
 #define MAIN_32_RELEASE
+#pragma comment (lib, "../lib32/xinput/xinput.lib")
+#pragma comment(lib, "../lib32/GL/OpenGL32.lib")
+#pragma comment(lib, "../lib32/GLEW/Release/glew32.lib")
+#pragma comment(lib, "../lib32/GLFW/Release/glfw3.lib")
+#pragma comment(lib, "../lib32/freetype/Release/freetype.lib")
+
 #endif // NDEBUG
 #endif // _WINXX
 
